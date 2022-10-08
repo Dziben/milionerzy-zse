@@ -1,13 +1,11 @@
 import React from "react";
 import "./App.scss";
-import Koty from "./Koty";
+import TaskList from "./TaskList"
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <Koty />
-      </header>
+      <TaskList/>
     </div>
   );
 };

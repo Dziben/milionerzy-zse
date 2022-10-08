@@ -1,0 +1,81 @@
+.container {
+    background-color: #ff6666;
+    width: 600px;
+    margin: 150px auto;
+
+    &>h1 {
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        padding: 32px;
+    }
+}
+
+.task {
+    background-color: #ff7676;
+    display: flex;
+    align-items: center;
+    padding: 32px;
+    justify-content: space-between;
+
+    h1 {
+        color: white;
+        text-align: left;
+        font-size: 19px;
+    }
+
+    button {
+        background-color: transparent;
+        font-size: 14px;
+        color: white;
+        border: 1px solid white;
+        padding: 5px 10px;
+        transition-duration: 0.2s;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    button:last-of-type {
+        margin-right: 0px;
+    }
+
+
+    button:hover {
+        background-color: white;
+        color: #ff6666;
+    }
+}
+
+.createTask {
+    padding: 32px;
+    display: flex;
+
+    input {
+        width: 70%;
+        display: block;
+        font-size: 16px;
+        padding: 24px;
+        border: 0;
+    }
+
+    input:focus {
+        outline: 0;
+    }
+
+    button {
+        width: 30%;
+        font-size: 16px;
+        padding: 22px 24px;
+        border: 1px solid white;
+        color: white;
+        transition-duration: 0.2s;
+        margin-left: 3px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: white;
+        color: #ff6666;
+    }
+}
